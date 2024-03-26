@@ -1,4 +1,5 @@
 //deletes all items with the name ="Holberton school"
 
 use "$1"
-db.school.remove({name: "Holberton school})
+// delete
+db.school.deleteMany({ name : "Holberton school"})
