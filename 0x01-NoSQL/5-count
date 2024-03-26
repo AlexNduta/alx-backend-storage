@@ -1,4 +1,4 @@
 //display the numnber of documents in the collection
 
 use "$1"
-db.school.estimatedDocumentCount(
+db.school.count()
