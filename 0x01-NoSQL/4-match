@@ -1,0 +1,4 @@
+//list all documents with the  name Holberton school in the school connection
+
+use "$1"
+db.school.find(namei: "Holberton school")
