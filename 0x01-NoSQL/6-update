@@ -1,9 +1,8 @@
 //add a new attribute to a document in the collection school
 
-use "$1"
+//use "$1"
 db.school.update(
 {name: "Holberton school"}, 
-{$set: 
-{address: “972 Mission street”}}, 
-{multi: true}
+{$set: {address: “972 Mission street”}}, 
+{ multi: true}
 )
